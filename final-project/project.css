@@ -5,16 +5,16 @@
 body {
   margin: 0;
   background-color: #E1EAF9;
-  color: #1E252B;
+  color: #004a10;
   font-family: "Merriweather", Georgia, serif;
 }
 
 header {
-  background-color: #0F2439;
+  background-color: #01360c;
   color: #FFFFFF;
   text-align: center;
   padding: 2em 1.5em;
-  border-radius: 0 0 56px 0;
+  border-radius: 0 0 0 0;
 }
 
 header.hero {
@@ -36,7 +36,15 @@ h2::before {
 }
 
 h2 {
-  color: #4494DA;
+  color: #2f013d;
+  text-align: center;
+}
+
+p {
+  color: black;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 nav {
@@ -93,11 +101,11 @@ nav a:focus {
 }
 
 footer {
-  background-color: #0F2439;
+  background-color: #01360c;
   color: #E1EAF9;
   font-size: .75em;
   font-style: italic;
   text-align: center;
   padding: 2.25em 1.5em;
-  border-radius: 0 56px 0 0;
+  border-radius: 0 0 0 0;
 }
