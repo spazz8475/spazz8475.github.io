@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact us</title>
+</head>
+<body>
+  <main>
+    <h1>Contact us</h1>
+    <p>Leave your name and email and we'll get back to you. Fields marked * are required.</p>
+
+    <form action="/submit-contact" method="post">
+      <p>
+        <label for="fullName">Full name *</label><br>
+        <input type="text" id="fullName" name="fullName" autocomplete="name" required>
+      </p>
+
+      <p>
+        <label for="email">Email address *</label><br>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+      </p>
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+</body>
+</html>
